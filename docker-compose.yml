@@ -23,6 +23,11 @@ services:
     depends_on:
       - mongodb
       - redis
+  cart:
+    image: cart:v1
+    container_name: cart
+    depends_on:
+      - redis
 networks:
   roboshop:
     driver: bridge
