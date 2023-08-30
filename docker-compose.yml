@@ -5,6 +5,8 @@ services:
     container_name: web
     depends_on:
       - catalogue
+    ports:
+      - 80
   catalogue:
     image: catalogue:v1
     container_name: catalogue
