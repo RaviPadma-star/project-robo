@@ -6,14 +6,14 @@ services:
     depends_on:
       - catalogue
     ports:
-      - 80
+      - 80:80
   catalogue:
     image: catalogue:v1
     container_name: catalogue
     depends_on:
       - mongodb
   mongodb:
-    image: mongo:v1
+    image: mongodb:v1
     container_name: mongodb
   redis:
     image: redis
