@@ -1,7 +1,7 @@
 version: '3.4'
 networks:
   roboshop:
-    driver: bridge
+    driver: custom-driver-1
 services:
   web:
     image: web:v1
@@ -20,6 +20,7 @@ services:
     container_name: mongodb
   redis:
     image: redis
+    container_name: redis
   user:
     image: user:v1
     container_name: user
