@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  web:
+    image: web:v1
+    container_name: web
+    depends_on:
+      - catalogue
+  catalogue:
+    image: catalogue:v1
+    container_name: catalogue
+    depends_on:
+      - mongodb
+  mongo:
+    image: mongo:v1
+    container_name: mongodb
+networks:
+  roboshop:
+    driver: bridge
+    
