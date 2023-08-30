@@ -13,6 +13,14 @@ services:
   mongo:
     image: mongo:v1
     container_name: mongodb
+  redis:
+    image: redis
+  user:
+    image: user:v1
+    container_name: user
+    depends_on:
+      - mongodb
+      - redis
 networks:
   roboshop:
     driver: bridge
