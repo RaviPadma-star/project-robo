@@ -1,0 +1,476 @@
+ 1  clear
+    2  docker --version
+    3  sudo yum update -y
+    4  sudo amazon-linux-extras install docker
+    5  sudo su
+    6  sudo amazon-linux-extras install docker
+    7  amazon-linux-extras install docker
+    8  yum install docker
+    9  sudo yum install docker
+   10  sudo service docker start
+   11  sudo systemctl enable docker
+   12  sudo usermod -a -G docker ec2-user
+   13  exit
+   14  clear
+   15  docker --version
+   16  docker images
+   17  docker ps -a
+   18  docker pull nginx
+   19  docker images
+   20  docker create eea7b3dcba7e
+   21  docker ps a
+   22  docker ps -a
+   23  clear
+   24  docker ps -a
+   25  docker run 0f771bd60eb7
+   26  docker start 0f771bd60eb7
+   27  docker run 0f771bd60eb7
+   28  docker login
+   29  docker run 0f771bd60eb7
+   30  docker ps -a
+   31  docker images -o wide
+   32  docker ps -a -o wide
+   33  docker images
+   34  docker ps -a
+   35  docker run -d -p 80:80 nginx
+   36  docker ps -a
+   37  hostname
+   38  ip
+   39  ls
+   40  docker images
+   41  docker ps -a
+   42  git clone https://github.com/RaviPadma-star/docker-aug.git
+   43  apt-get git -y
+   44  apt install git -y
+   45  yum install git -y
+   46  sudo yum install git -y
+   47  git clone https://github.com/RaviPadma-star/docker-aug.git
+   48  clear
+   49  ls
+   50  cd docker-aug
+   51  ls
+   52  cd DockerFiles
+   53  ls
+   54  cd from
+   55  cd FRom
+   56  cd From
+   57  docker build -t padmaravi/from:v1 .
+   58  cd ../Run
+   59  docker build -t padmaravi/run:v1 .
+   60  cd ../cmd
+   61  docker build -t padmaravi/cmd:v1 .
+   62  docker images
+   63  clear
+   64  docker build -t padmaravi/cmd:v1 .
+   65  docker images
+   66  docker push padmaravi/from
+   67  docker push padmaravi/from:v1
+   68  clear
+   69  ls
+   70  clear
+   71  git clone https://github.com/RaviPadma-star/aug-docker.git
+   72  ls
+   73  cd aug-docker
+   74  cd web
+   75  docker build -t web:v1 .
+   76  docker run -d -t -p 80:80 web:v1
+   77  docker run -d -t -p 8080:80 web:v1
+   78  docker images
+   79  docker ps -a
+   80  docker exec -it web:v1
+   81  docker exec -it ce7003442f2f
+   82  clear
+   83  docker exec -t ce7003442f2f
+   84  docker exec -it ce7003442f2f
+   85  docker exec --help
+   86  docker exec -t ce7003442f2f
+   87  docker exec -it ce7003442f2f
+   88  docker exec -d ce7003442f2f
+   89  clar
+   90  clear
+   91  docker run -d -p 8080:80 web:v1
+   92  docker run -d -p 8081:80 web:v1
+   93  docker ps -a
+   94  docker exec -it 079bec5461b3
+   95  docker rm -f  $(docker ps -a -q)
+   96  clear
+   97  docker images
+   98  docker rmi $(docker images)
+   99  docker rmi $(docker ps -a -a)
+  100  docker rmi $(docker ps -a -q)
+  101  docker rmi f1e75cdbbf66
+  102  docker rmi -f f1e75cdbbf66
+  103  docker images
+  104  clear
+  105  CLEAR
+  106  celar
+  107  clear
+  108  ls
+  109  cd docker-aug/doclerclass
+  110  cd docker-aug
+  111  cd dockerclass
+  112  cd env
+  113  cd Env
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd DockerFiles
+  118  cd env
+  119  cd Env
+  120  ls
+  121  git pull
+  122  cd env
+  123  docker build -t env:v1 .
+  124  git pull
+  125  celar
+  126  clear
+  127  docker build -t env:v1 .
+  128  git pull
+  129  docekr images
+  130  docker images
+  131  docker build -t env:v1 .
+  132  docker exec -it --bash
+  133  docker exec -it env:v1 --bash
+  134  docker images
+  135  docker run -d -p 8080:80 env:v1
+  136  docker ps -a
+  137  clear
+  138  git pull
+  139  docker images
+  140  docker rm -rf env:v1
+  141  docker rm -f env:v1
+  142  docker rm -f 8a18a1f1ef0e
+  143  docker build -t env:v1 .
+  144  docker run -d env:v1
+  145  docker ps -a
+  146  git pull
+  147  docker build -t env:v1 .
+  148  docker run -d env:v1
+  149  git pull
+  150  docker build -t env:v1 .
+  151  docker run -d env:v1
+  152  clear
+  153  clear
+  154  git pull
+  155  cd Docker-aug
+  156  ls
+  157  cd docker-aug
+  158  ls
+  159  git pull
+  160  clear
+  161  ls
+  162  cd project-robo
+  163  cd web
+  164  docker build -t web:robo .
+  165  docker run -d -p 80:80 web:v1
+  166  docker run -d -it -p 80:80 web:v1
+  167  docker run -d -p 80:80 web:v1
+  168  docker login
+  169  docker run -d -p 80:80 web:v1
+  170  docker images
+  171  docker run -d -p 80:80 web:robo
+  172  clear
+  173  docker images
+  174  docker ps -a $(docker rm -f)
+  175  docker rmi $(docker images -a -q)
+  176  docker images
+  177  docker rm $(docker ps -a -q)
+  178  docker ps -a
+  179  docker stop 9cc3b01268ad
+  180  docker stop 0f771bd60eb7
+  181  docker rm $(docker ps -a -q)
+  182  clear
+  183  docker images
+  184  docker rmi d09fb55b1d52
+  185  docker images -all
+  186  docker images -a
+  187  docker rmi --all --force
+  188  docker images purge
+  189  docker images
+  190  docker rmi -f $(docker images -aq)
+  191  docker images
+  192  clear
+  193  docker images
+  194  docker ps -a
+  195  docker build -t web:robo .
+  196  docker ps pa
+  197  docekr ps -a
+  198  docker ps -a
+  199  docker images
+  200  clear
+  201  docker images
+  202  docker run -d -p 80:80 web:robo
+  203  docker ps -a
+  204  docker exec -it web:robo --bash
+  205  docker exec -it 7ccd68712893 --bash
+  206  docker exec -it 7ccd68712893 bash
+  207  docker ps -a -o wide
+  208  docker ps -a
+  209  hostip
+  210  hostname
+  211  uname
+  212  ip
+  213  link
+  214  address
+  215  clear
+  216  docker ps
+  217  docker inspect 7ccd68712893
+  218  clear
+  219  docker ps -a
+  220  docker stop 7ccd68712893
+  221  docker start 7ccd68712893
+  222  docker ps -a
+  223  clear
+  224  ls
+  225  cd project-rob
+  226  cd project-robo
+  227  ls
+  228  git pull
+  229  clear
+  230  cd mongo
+  231  ls
+  232  docker build -t mongo:v1 .
+  233  docker images
+  234  docker ps -a
+  235  docker run -d mongo:v1
+  236  docker ps -a
+  237  docker logs f91da7a350b4
+  238  cd ../catalogue
+  239  docker build -t cat:v1 .
+  240  docker images
+  241  clear
+  242  docker run -d cat:v1
+  243  docker ps -a
+  244  docker logs d93d06932c9f
+  245  docker exec -it d93d06932c9f bash
+  246  docker rmi d93d06932c9f
+  247  docker rm -f d93d06932c9f
+  248  docker ps -a
+  249  docker build -t cat:v1 .
+  250  clear
+  251  docker run -d -p 80:80 cat:v1
+  252  docker run -d -p 8080:80 cat:v1
+  253  docker ps -a
+  254  docker rm -f abb403b96991
+  255  docker ps -a
+  256  docker logs e3f20a88822d
+  257  docker rm -f `docker ps -a -a`
+  258  docker rm -f `docker ps -a -q`
+  259  docker images prune
+  260  docker ps -a
+  261  clear
+  262  cd ../web
+  263  docker build -t web:v1 .
+  264  docker run -d --name web web:v1
+  265  cd ../mango
+  266  cd ..
+  267  ;s
+  268  ls
+  269  cd mongo
+  270  docker build -t mongo:v1 .
+  271  docker run -d --name mongodb mongo:v1
+  272  cd ../catalogue
+  273  docker build -t cat:v1 .
+  274  docker run -d --name catalogue mongo:v1
+  275  docker ps -a
+  276  clear
+  277  docker ps -a
+  278  docker rm -f ec46c6cd5bcb
+  279  docker ps -a
+  280  docker build -t cat:v1 .
+  281  docker run -d --name catalogue cat:v1
+  282  docker ps -a
+  283  clear
+  284  docker logs catalogue
+  285  docker logs mongo
+  286  docker logs mongodb
+  287  docker exec -it catalogue
+  288  docker exec -it catalogue bash
+  289  ls
+  290  rm *
+  291  rm -f *
+  292  rmdir *
+  293  rm -f aug-docker
+  294  git clone https://github.com/RaviPadma-star/project-robo.git
+  295  ls
+  296  cd project-robo
+  297  ls
+  298  cd web
+  299  clear
+  300  docker build -t web:v1 .
+  301  docker rm -f $(docker ps -a -a)
+  302  docker rm -f $(docker ps -a -q)
+  303  docker rmi -f $(docker ps -a -q)
+  304  docker rmi 0e901e68141f
+  305  docker images
+  306  docker rmi 4c6304736eab
+  307  docker images
+  308  docker rmi 4c6304736eab
+  309  docker rmi 7e01a0d0a1dc
+  310  docker rmi 0e901e68141f
+  311  docker images
+  312  docker rmi -f 4141b4bec9cb
+  313  docker rmi -f 7e01a0d0a1dc
+  314  clear
+  315  git pull
+  316  docker build -t web .
+  317  docker run -d -p 80:80 web
+  318  docker ps -a
+  319  docker exec -it web
+  320  docker exec -it d1ead31fb40f
+  321  docker exec -t d1ead31fb40f
+  322  docker exec  d1ead31fb40f
+  323  docker images
+  324  docker exec -it 38876569f2fa
+  325  docker exec -it web
+  326  docker exec -it web --bash
+  327  docker exec -it 38876569f2fa --bash
+  328  docker images
+  329  docker ps -a
+  330  docker exec -it d1ead31fb40f --bash
+  331  docker exec -it d1ead31fb40f bash
+  332  docker image prune
+  333  docker ps -a
+  334  docker rm -f web
+  335  docker rm -f d1ead31fb40f
+  336  docker ps -a
+  337  git pull
+  338  docker build -t web:v1 .
+  339  docker images
+  340  docker ps -a
+  341  docker rmi 38876569f2fa
+  342  docker rmi eea7b3dcba7e
+  343  docker rmi ea7b3dcba7e
+  344  docker images
+  345  docker rmi eea7b3dcba7e
+  346  docker rmi -f eea7b3dcba7e
+  347  docker ps -a
+  348  docker rm -f  d88f4e38dcf0
+  349  clear
+  350  docker images prune
+  351  cleatr
+  352  clear
+  353  git pull
+  354  docker build -t web:v1 .
+  355  docker ps -a
+  356  docker run -d -p 80:80 web:v1 bash
+  357  docker ps -a
+  358  docker run -d -p 80:80 web:v1
+  359  docker ps -a
+  360  docker exec -it 1a0bde09b631 bash
+  361  docker image prune
+  362  docker ps -a
+  363  docker rm -f $(docker ps -a -q )
+  364  docker images
+  365  docker rmi -f $(docker ps -a -q )
+  366  docker rmi -f $(docker images)
+  367  docker images
+  368  docker ps -a
+  369  clear
+  370  git pull
+  371  docker build -t web:v1 .
+  372  docker run -d -p 80:80 web:v1
+  373  docker ps -a
+  374  docker exec -it 1c97c6fa445e bash
+  375  docker rmi -f $(docker images)
+  376  docker rmi -f $(docker ps -a -q )
+  377  docker image prune
+  378  docker ps
+  379  docker rm -f 1c97c6fa445e
+  380  git pull
+  381  celar
+  382  clear
+  383  docker build -t web:v1 .
+  384  docker run -d -p 80:80 web:v1
+  385  docker ps -a
+  386  ls
+  387  cd project-robo
+  388  ls
+  389  cd ctalogue
+  390  cd catalogue
+  391  ls
+  392  clear
+  393  docker  ps -a
+  394  docker exec -it catalogue
+  395  docker exec -it catalogue bash
+  396  docker inspect mongodb
+  397  docker exec -it catalogue bash
+  398  clear
+  399  celear
+  400  clear
+  401  cl
+  402  ls
+  403  cd project-robo
+  404  docker ps -a
+  405  docker create network roboshop
+  406  ls
+  407  docker login
+  408  docker create network roboshop
+  409  docker network ls
+  410  docker network create roboshop
+  411  docker network ls
+  412  cd mongo
+  413  docker run -d --name mongodb --network roboshop mongo:v1
+  414  docker rm -f `docker ps -a -q`
+  415  cler
+  416  clear
+  417  docker ps -a
+  418  docker images
+  419  docker run -d --name mongodb --network roboshop mongo:v1
+  420  cd ../catalogue
+  421  docker run -d --name catalogue --network roboshop cat:v1
+  422  docekr ps -a
+  423  docker ps -a
+  424  docker inspect mongo
+  425  docker inspect mongodb
+  426  docker network ls
+  427  docker logs mongodb
+  428  docker logs catalogue
+  429  cd ../web
+  430  docker run -d --name web --network roboshop web:v1
+  431  docker ps -a
+  432  docker images
+  433  docker logs web
+  434  docker run -d --name web  roboshop web:v1
+  435  docker rm -f 19660d8333e4
+  436  docker ps -a
+  437  docker run -d --name web  roboshop web:v1
+  438  docker run -d --name web web:v1
+  439  docker ps -a
+  440  docker images
+  441  docker rm -f 289dd6e0cbf0
+  442  docker run -d -p 80:80 --name web web:v1
+  443  docker ps -a
+  444  docker logs catalouge
+  445  docker logs catalogue
+  446  docker logs mongodb
+  447  clear
+  448  ls
+  449  cd project-robo
+  450  ls
+  451  git pll
+  452  git pull
+  453  cd web
+  454  docker build -t web:v1 .
+  455  docker run -d -p 80:80 web:v1
+  456  docker ps -a
+  457  docker rm -f de6ee3035327
+  458  docker rm -f 73acde69ab90
+  459  docker ps -a
+  460  docker build -t web:v1 .
+  461  docker run -d -p 80:80 --name web --network roboshop web:v1
+  462  docker ps -a
+  463  docker logs web
+  464  docker ps -a
+  465  docker rm -f a87c9adb7acf
+  466  git pull
+  467  clear
+  468  docker build -t web:v1 .
+  469  docker run -d -p 80:80 --name web --network roboshop web:v1
+  470  docker ps -a
+  471  docker logs web
+  472  docker rm -f  ac196ad7d31e
+  473  git pull
+  474  clear
+  475  docker build -t web:v1 .
+  476  docker run -d -p 80:80 --name web --network roboshop web:v1
